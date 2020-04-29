@@ -91,7 +91,8 @@ A:hover{
     height: 640px; 
     background: url("images/H.png") center no-repeat;
 	margin: 0 auto;
-	position: relative;
+    position: relative;
+    width: 100%;
 }
 .sidebar{
     text-align: center;
@@ -535,7 +536,7 @@ A:hover{
     background-color: #ffffff;
 }
 .text_4{
-    margin-left: 320px ;
+    margin-left: 310px ;
     display: inline-block;
     margin-top: 108px;
     color: #212121;
@@ -545,7 +546,7 @@ A:hover{
     text-transform: uppercase;
 }
 .line-4{
-    margin-left: 480px;
+    margin-left: 465px;
     margin-top: 30px;
     width: 64px;
     height: 2px;
@@ -556,7 +557,7 @@ A:hover{
 }
 .text-4{
     margin-top: 30px;
-    margin-left: 340px;
+    margin-left: 325px;
     color: #86878b;
     font-family: "Open Sans";
     font-size: 14px;
@@ -1261,10 +1262,182 @@ padding: 40px 0px 0px 20px
     margin-left: 710px;
 }
 .panel{
-    background-size: cover;
-    width: 100%;
-    height: 320px; 
-    background: url("images/Panel.png") center no-repeat;
-	margin: 0 auto;
-	position: relative;
+    margin-left: -189px;
+    height: 320px;
+    width: 1360px;
+    background: url("images/Panel.png");
+}
+.head-txt{
+    margin-left: 490px ;
+    display: inline-block;
+    margin-top: 74px;
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.head-line{
+    margin-left: 665px;
+    margin-top: 26px;
+    width: 64px;
+    height: 2px;
+    border: none; 
+    background-color: #ffffff; 
+    color: #ffffff; 
+    height:  2px;
+}
+.head-txt-down{
+    margin-top: 23px;
+    margin-left: 350px;
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: 100;
+}
+.button2{
+    margin-left: 610px;
+    margin-top: 33px;
+    padding: 13px 40px 12px 40px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    font-family: "Open sans";
+    font-weight: 400;
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+     border: 2px solid;
+    border-radius: 1px; 
+}
+.button2:hover{
+    border: 2px solid #ff8b38;
+    background-color: #ff8b38;
+    color:#ffffff;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 
+}
+.head-7{
+    width: 1000px;
+    height: 612px;
+}
+.head-txt2{
+    margin-top: 108px;
+    margin-left: 390px;
+    color: #212121;
+    font-family: "Raleway";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    text-transform: uppercase;
+}
+.head-line2{
+    margin-left: 475px;
+    margin-top: 30px;
+    width: 64px;
+    height: 2px;
+    border: none; 
+    background-color: #ff8b38; 
+    color: #ff8b38; 
+    height:  2px;
+}
+.head-down-txt{
+    margin-top: 30px;
+    margin-left: 320px;
+    color: #86878b;
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: 100;
+}
+.contact-name {
+    margin-top: 91px;
+}
+.name-con{
+    width: 427px;
+    height: 38px;
+    border: none;
+    color: #bdbdbd;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+.contact-email{
+    margin-top: 30px;
+}
+.email-con{
+    margin-top: 39px;
+    width: 427px;
+    height: 38px;
+    border: none;
+    color: #bdbdbd;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+.contact-subject{
+    margin-top: 30px;
+}
+.subject-con{
+    margin-top: 39px;
+    width: 427px;
+    height: 38px;
+    border: none;
+    color: #bdbdbd;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+.contact-message{
+    margin-left: 580px;
+    margin-top: -245px;
+}
+.con-message{
+    color: #bdbdbd;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+.comment{
+    margin-top: 187px;
+    margin-left: 580px;
+}
+.con-comment{
+    width: 427px;
+    height: 31px;
+    box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
+}
+.btn-send{
+    margin-top: 43px;
+    margin-left: 410px;
+}
+.send{
+    background-color: #ff8b38;
+    padding: 13px 40px 12px 40px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open sans";
+    font-weight: 400;
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+}
+.footer{
+    margin-left: -189px;
+    width: 1360px;
+    height: 100px;
+    background-color: #37495e;
+}
+.foot-icon{
+    margin-top: 21px;
+    margin-left: 520px;
+    width: 317px;
+    height: 23px;
+}
+.foot-txt{
+    margin-top: 15px;
+    margin-left: 630px;
+    color: #ffffff;
+    font-family: "Open sans";
+    font-size: 12px;
+    font-weight: 400;
 }
